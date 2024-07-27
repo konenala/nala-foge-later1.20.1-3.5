@@ -66,6 +66,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlocks.END_STONE_NALA_STONE_ORE.get());
 
+
         this.tag(ModTags.Blocks.NEEDS_NALA_STONE_TOOL)
                 .add(ModBlocks.TEST_BLOCK.get());
 
