@@ -33,6 +33,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.RAW_NALA_STONE_BLOCK.get(),
 
 
+                        ModBlocks.TEST_BLOCK.get(),
+
+
 
                         ModBlocks.NALA_STONE_ORE.get(),
                         ModBlocks.NETHER_NALA_STONE_ORE.get(),
