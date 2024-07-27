@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nalamodkonenala:block/nala_stone_slab"
+    },
+    "type=double": {
+      "model": "nalamodkonenala:block/nala_stone_block"
+    },
+    "type=top": {
+      "model": "nalamodkonenala:block/nala_stone_slab_top"
+    }
+  }
+}

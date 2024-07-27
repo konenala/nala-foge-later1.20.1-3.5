@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nalamodkonenala:raw_nala_stone_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "nalamodkonenala:raw_nala_stone"
+  }
+}

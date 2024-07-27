@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "nalamodkonenala:block/nala_stone_door_bottom",
+    "top": "nalamodkonenala:block/nala_stone_door_top"
+  }
+}

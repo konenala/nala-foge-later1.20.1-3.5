@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "nalamodkonenala:block/nala_stone_block"
+  }
+}

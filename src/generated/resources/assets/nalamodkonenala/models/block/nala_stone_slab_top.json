@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "nalamodkonenala:block/nala_stone_block",
+    "side": "nalamodkonenala:block/nala_stone_block",
+    "top": "nalamodkonenala:block/nala_stone_block"
+  }
+}

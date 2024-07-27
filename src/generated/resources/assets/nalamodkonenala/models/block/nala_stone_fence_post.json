@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "nalamodkonenala:block/nala_stone_block"
+  }
+}

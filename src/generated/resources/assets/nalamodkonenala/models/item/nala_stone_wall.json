@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "nalamodkonenala:block/nala_stone_block"
+  }
+}

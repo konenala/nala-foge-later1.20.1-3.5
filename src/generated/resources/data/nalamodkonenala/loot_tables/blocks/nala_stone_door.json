@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "nalamodkonenala:nala_stone_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "nalamodkonenala:nala_stone_door"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "nalamodkonenala:blocks/nala_stone_door"
+}

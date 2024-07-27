@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "nalamodkonenala:block/end_stone_nala_stone_ore"
+  }
+}

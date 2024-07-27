@@ -1,0 +1,35 @@
+{
+  "item.nalamodkonenala.nala_stone": "Nala Stone",
+  "item.nalamodkonenala.raw_nala_stone": "RAW Nala Stone",
+
+  "item.nalamodkonenala.metal_detector": "Metal Detector",
+  "item.nalamodkonenala.kiwi": "Kiwifruit",
+
+  "block.nalamodkonenala.nala_stone_block": "Block of Nala Stone",
+  "block.nalamodkonenala.raw_nala_stone_block": "Block of Raw Nala Stone",
+
+  "block.nalamodkonenala.nala_stone_stairs": "Nala Stone Stairs",
+  "block.nalamodkonenala.nala_stone_slab": "Nala Stone Slab",
+  "block.nalamodkonenala.nala_stone_button": "Nala Stone Button",
+  "block.nalamodkonenala.nala_stone_pressure_plate": "Nala Stone Pressure Plate",
+  "block.nalamodkonenala.nala_stone_fence": "Nala Stone Fence",
+  "block.nalamodkonenala.nala_stone_fence_gate": "Nala Stone Fence Gate",
+  "block.nalamodkonenala.nala_stone_wall": "Nala Stone Wall",
+  "block.nalamodkonenala.nala_stone_door": "Nala Stone Door",
+  "block.nalamodkonenala.nala_stone_trapdoor": "Nala Stone Trapdoor",
+
+
+  "block.nalamodkonenala.nala_stone_ore": "Nala Stone Ore",
+  "block.nalamodkonenala.deepslate_nala_stone_ore": "Deepslate Nala Stone Ore",
+  "block.nalamodkonenala.nether_nala_stone_ore": "Nether Nala Stone Ore",
+  "block.nalamodkonenala.end_stone_nala_stone_ore": "Endstone Nala Stone Ore",
+
+  "message1.nalamodkonenala.not_found": "No valuables Found!",
+  "message2.nalamodkonenala.found": "Found %1$s at (%2$d, %3$d, %4$d)",
+
+  "tooltip.nalamodkonenala.kiwi.tooltip":"Edible fruits have a chance to provide effects.",
+  "tooltip.nalamodkonenala.metal_detector.tooltip": "Finds valuables underground!",
+
+
+  "creativetab.konenalamod_tab": "NaLa Mod Tab"
+}

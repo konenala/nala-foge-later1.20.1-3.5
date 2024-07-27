@@ -1,0 +1,40 @@
+{
+  "item.nalamodkonenala.nala_stone": "果果石",
+  "item.nalamodkonenala.raw_nala_stone": "粗果果石",
+
+  "item.nalamodkonenala.metal_detector": "金屬探測器",
+  "item.nalamodkonenala.kiwi": "奇異果",
+
+
+  "block.nalamodkonenala.nala_stone_block": "果果石方塊",
+  "block.nalamodkonenala.raw_nala_stone_block": "粗果果石方塊",
+
+
+
+  "block.nalamodkonenala.nala_stone_stairs": "果果石樓梯",
+  "block.nalamodkonenala.nala_stone_slab": "果果石半磚",
+  "block.nalamodkonenala.nala_stone_button": "果果石按鈕",
+  "block.nalamodkonenala.nala_stone_pressure_plate": "果果石壓力板",
+  "block.nalamodkonenala.nala_stone_fence": "果果石柵欄",
+  "block.nalamodkonenala.nala_stone_fence_gate": "果果石柵欄門",
+  "block.nalamodkonenala.nala_stone_wall": "果果石牆",
+  "block.nalamodkonenala.nala_stone_door": "果果石門",
+  "block.nalamodkonenala.nala_stone_trapdoor": "果果石地板門",
+
+
+  "block.nalamodkonenala.nala_stone_ore": "果果礦石",
+  "block.nalamodkonenala.deepslate_nala_stone_ore": "深板岩果果礦石",
+  "block.nalamodkonenala.nether_nala_stone_ore": "地獄石果果礦石",
+  "block.nalamodkonenala.end_stone_nala_stone_ore": "終界石果果礦石",
+
+  "message1.nalamodkonenala.not_found": "沒有發現有價值的物品/礦物!",
+  "message2.nalamodkonenala.found": "發現 %1$s 在 (%2$d, %3$d, %4$d)",
+
+  "tooltip.nalamodkonenala.kiwi.tooltip":"可以吃的水果，有概率獲得效果",
+
+  "tooltip.nalamodkonenala.metal_detector.tooltip": "可以在地下探測出稀有金屬!",
+
+
+  "creativetab.konenalamod_tab": "果果模組面板"
+
+}

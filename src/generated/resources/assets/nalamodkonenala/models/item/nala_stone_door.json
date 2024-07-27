@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nalamodkonenala:item/nala_stone_door"
+  }
+}
