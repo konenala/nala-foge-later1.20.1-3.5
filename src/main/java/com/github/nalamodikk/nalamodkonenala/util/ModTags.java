@@ -11,6 +11,7 @@ import net.minecraft.world.item.Item;
 public class ModTags {
     public static class Blocks{
         public static final TagKey<Block> METAL_DETECTOR_VALUABLES = tag("metal_detector_valuables");
+        public static final TagKey<Block> NEEDS_NALA_STONE_TOOL = tag("needs_nala_stone_tool");
 
 
 

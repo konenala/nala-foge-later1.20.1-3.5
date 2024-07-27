@@ -40,6 +40,16 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.NALA_STONE_FENCE_GATE);
 
         trapdoorItem(ModBlocks.NALA_STONE_TRAPDOOR);
+
+
+
+        handheldItem(ModItems.NALA_STONE_SWORD);
+        handheldItem(ModItems.NALA_STONE_PICKAXE);
+        handheldItem(ModItems.NALA_STONE_AXE);
+        handheldItem(ModItems.NALA_STONE_SHOVEL);
+        handheldItem(ModItems.NALA_STONE_HOE);
+
+
         // simpleItem(ModItems.xxxxx);
         //simpleItem(ModItems.STRAWBERRY);
     }
@@ -72,6 +82,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     public void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
                 .texture("wall",  new ResourceLocation(Konenalamod.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(Konenalamod.MOD_ID,"item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {

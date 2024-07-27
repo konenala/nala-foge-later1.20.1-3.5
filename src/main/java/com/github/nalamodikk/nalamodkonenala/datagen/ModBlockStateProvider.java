@@ -24,6 +24,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.END_STONE_NALA_STONE_ORE);
         blockWithItem(ModBlocks.NETHER_NALA_STONE_ORE);
 
+        blockWithItem(ModBlocks.TEST_BLOCK);
+
 
 
         stairsBlock(((StairBlock) ModBlocks.NALA_STONE_STAIRS.get()), blockTexture(ModBlocks.NALA_STONE_BLOCK.get()));

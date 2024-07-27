@@ -31,10 +31,26 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.NALA_STONE_BLOCK.get(),
                         ModBlocks.RAW_NALA_STONE_BLOCK.get(),
+
+
+
                         ModBlocks.NALA_STONE_ORE.get(),
                         ModBlocks.NETHER_NALA_STONE_ORE.get(),
                         ModBlocks.DEEPSLATE_NALA_STONE_ORE.get(),
-                        ModBlocks.END_STONE_NALA_STONE_ORE.get());
+                        ModBlocks.END_STONE_NALA_STONE_ORE.get(),
+
+
+
+                        ModBlocks.NALA_STONE_TRAPDOOR.get(),
+                        ModBlocks.NALA_STONE_DOOR.get(),
+                        ModBlocks.NALA_STONE_WALL.get(),
+                        ModBlocks.NALA_STONE_FENCE_GATE.get(),
+                        ModBlocks.NALA_STONE_FENCE.get(),
+                        ModBlocks.NALA_STONE_PRESSURE_PLATE.get(),
+                        ModBlocks.NALA_STONE_BUTTON.get(),
+                        ModBlocks.NALA_STONE_SLAB.get(),
+                        ModBlocks.NALA_STONE_STAIRS.get());
+
                        // ModBlocks.SOUND_BLOCK.get());
 
 
@@ -49,6 +65,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlocks.END_STONE_NALA_STONE_ORE.get());
+
+        this.tag(ModTags.Blocks.NEEDS_NALA_STONE_TOOL)
+                .add(ModBlocks.TEST_BLOCK.get());
+
 
 
 

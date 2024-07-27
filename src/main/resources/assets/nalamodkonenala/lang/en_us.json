@@ -5,8 +5,20 @@
   "item.nalamodkonenala.metal_detector": "Metal Detector",
   "item.nalamodkonenala.kiwi": "Kiwifruit",
 
+
+  "item.nalamodkonenala.nala_stone_sword": "Nala Stone Sword",
+  "item.nalamodkonenala.nala_stone_pickaxe": "Nala Stone Pickaxe",
+  "item.nalamodkonenala.nala_stone_axe": "Nala Stone Axe",
+  "item.nalamodkonenala.nala_stone_shovel": "Nala Stone Shovel",
+  "item.nalamodkonenala.nala_stone_hoe": "Nala Stone Hoe",
+
+
   "block.nalamodkonenala.nala_stone_block": "Block of Nala Stone",
   "block.nalamodkonenala.raw_nala_stone_block": "Block of Raw Nala Stone",
+
+  "block.nalamodkonenala.test_block": "test_block",
+
+
 
   "block.nalamodkonenala.nala_stone_stairs": "Nala Stone Stairs",
   "block.nalamodkonenala.nala_stone_slab": "Nala Stone Slab",

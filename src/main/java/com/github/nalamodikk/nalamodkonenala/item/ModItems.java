@@ -3,7 +3,7 @@ package com.github.nalamodikk.nalamodkonenala.item;
 import com.github.nalamodikk.nalamodkonenala.Konenalamod;
 import com.github.nalamodikk.nalamodkonenala.item.custom.MetalDetectorItem;
 import com.github.nalamodikk.nalamodkonenala.item.custom.ModFoods;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,6 +24,19 @@ public class ModItems {
 
     public static final RegistryObject<Item> KIWI = ITEMS.register("kiwi",
             () -> new Item(new Item.Properties().food(ModFoods.KIWI)));
+
+
+
+    public static final RegistryObject<Item> NALA_STONE_SWORD = ITEMS.register("nala_stone_sword",
+            () -> new SwordItem(ModToolTiers.NALA_STONE, 5, 2, new Item.Properties()));
+    public static final RegistryObject<Item> NALA_STONE_PICKAXE = ITEMS.register("nala_stone_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.NALA_STONE, 1, 1, new Item.Properties()));
+    public static final RegistryObject<Item> NALA_STONE_AXE = ITEMS.register("nala_stone_axe",
+            () -> new AxeItem(ModToolTiers.NALA_STONE, 7, 1, new Item.Properties()));
+    public static final RegistryObject<Item> NALA_STONE_SHOVEL = ITEMS.register("nala_stone_shovel",
+            () -> new ShovelItem(ModToolTiers.NALA_STONE, 3, 0, new Item.Properties()));
+    public static final RegistryObject<Item> NALA_STONE_HOE = ITEMS.register("nala_stone_hoe",
+            () -> new HoeItem(ModToolTiers.NALA_STONE, 4, 0, new Item.Properties()));
 
 
 

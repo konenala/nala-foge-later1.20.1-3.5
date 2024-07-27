@@ -26,6 +26,8 @@ public static final RegistryObject<CreativeModeTab> KONENALAMOD_TAB = CREATIVE_M
 
 
 
+                        pOutput.accept(ModBlocks.TEST_BLOCK.get());
+
                         pOutput.accept(ModBlocks.NALA_STONE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_NALA_STONE_BLOCK.get());
 
@@ -47,6 +49,13 @@ public static final RegistryObject<CreativeModeTab> KONENALAMOD_TAB = CREATIVE_M
 
 
                         pOutput.accept(ModItems.KIWI.get());
+
+
+                        pOutput.accept(ModItems.NALA_STONE_SWORD.get());
+                        pOutput.accept(ModItems.NALA_STONE_PICKAXE.get());
+                        pOutput.accept(ModItems.NALA_STONE_AXE.get());
+                        pOutput.accept(ModItems.NALA_STONE_SHOVEL.get());
+                        pOutput.accept(ModItems.NALA_STONE_HOE.get());
 
                         pOutput.accept(Items.DIAMOND);
 

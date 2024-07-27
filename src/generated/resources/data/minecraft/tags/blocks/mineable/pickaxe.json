@@ -5,6 +5,15 @@
     "nalamodkonenala:nala_stone_ore",
     "nalamodkonenala:nether_nala_stone_ore",
     "nalamodkonenala:deepslate_nala_stone_ore",
-    "nalamodkonenala:end_stone_nala_stone_ore"
+    "nalamodkonenala:end_stone_nala_stone_ore",
+    "nalamodkonenala:nala_stone_trapdoor",
+    "nalamodkonenala:nala_stone_door",
+    "nalamodkonenala:nala_stone_wall",
+    "nalamodkonenala:nala_stone_fence_gate",
+    "nalamodkonenala:nala_stone_fence",
+    "nalamodkonenala:nala_stone_pressure_plate",
+    "nalamodkonenala:nala_stone_button",
+    "nalamodkonenala:nala_stone_slab",
+    "nalamodkonenala:nala_stone_stairs"
   ]
 }

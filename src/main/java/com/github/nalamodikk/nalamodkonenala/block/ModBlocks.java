@@ -44,6 +44,12 @@ public class ModBlocks {
 
 
 
+    public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(7f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)));
+
+
+
     public static final RegistryObject<Block> NALA_STONE_STAIRS = registerBlock("nala_stone_stairs",
             () -> new StairBlock(() -> ModBlocks.NALA_STONE_BLOCK.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.METAL)));
