@@ -51,6 +51,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.METAL_DETECTOR);
 
         simpleItem(ModItems.KIWI);
+        simpleItem(ModItems.KIWI_SEEDS);
 
         simpleBlockItem(ModBlocks.NALA_STONE_DOOR);
 
