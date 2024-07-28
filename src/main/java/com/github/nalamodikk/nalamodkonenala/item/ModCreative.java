@@ -57,6 +57,12 @@ public static final RegistryObject<CreativeModeTab> KONENALAMOD_TAB = CREATIVE_M
                         pOutput.accept(ModItems.NALA_STONE_SHOVEL.get());
                         pOutput.accept(ModItems.NALA_STONE_HOE.get());
 
+                        pOutput.accept(ModItems.NALA_STONE_HELMET.get());
+                        pOutput.accept(ModItems.NALA_STONE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.NALA_STONE_LEGGINGS.get());
+                        pOutput.accept(ModItems.NALA_STONE_BOOTS.get());
+
+
                         pOutput.accept(Items.DIAMOND);
 
                 })

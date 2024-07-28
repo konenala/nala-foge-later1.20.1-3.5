@@ -39,6 +39,17 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.NALA_STONE, 4, 0, new Item.Properties()));
 
 
+    public static final RegistryObject<Item> NALA_STONE_HELMET = ITEMS.register("nala_stone_helmet",
+            () -> new ArmorItem(ModArmorMaterials.nala_stone, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> NALA_STONE_CHESTPLATE = ITEMS.register("nala_stone_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.nala_stone, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> NALA_STONE_LEGGINGS = ITEMS.register("nala_stone_leggings",
+            () -> new ArmorItem(ModArmorMaterials.nala_stone, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> NALA_STONE_BOOTS = ITEMS.register("nala_stone_boots",
+            () -> new ArmorItem(ModArmorMaterials.nala_stone, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

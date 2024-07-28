@@ -22,7 +22,10 @@ public class ModTags {
     public static class Items{
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(Konenalamod.MOD_ID, name));
-            }
+
+
+
+          }
         }
     }
 }
