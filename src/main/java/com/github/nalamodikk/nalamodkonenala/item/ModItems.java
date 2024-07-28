@@ -3,6 +3,7 @@ package com.github.nalamodikk.nalamodkonenala.item;
 import com.github.nalamodikk.nalamodkonenala.Konenalamod;
 import com.github.nalamodikk.nalamodkonenala.item.custom.MetalDetectorItem;
 import com.github.nalamodikk.nalamodkonenala.item.custom.ModFoods;
+import com.github.nalamodikk.nalamodkonenala.block.ModBlocks;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -47,6 +48,9 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.nala_stone, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> NALA_STONE_BOOTS = ITEMS.register("nala_stone_boots",
             () -> new ArmorItem(ModArmorMaterials.nala_stone, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> KIWI_SEEDS = ITEMS.register("kiwi_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.KIWI_CROP.get(), new Item.Properties()));
 
 
 

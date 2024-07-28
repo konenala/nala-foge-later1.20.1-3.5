@@ -49,7 +49,7 @@ public static final RegistryObject<CreativeModeTab> KONENALAMOD_TAB = CREATIVE_M
 
 
                         pOutput.accept(ModItems.KIWI.get());
-
+                        pOutput.accept(ModItems.KIWI_SEEDS.get());
 
                         pOutput.accept(ModItems.NALA_STONE_SWORD.get());
                         pOutput.accept(ModItems.NALA_STONE_PICKAXE.get());

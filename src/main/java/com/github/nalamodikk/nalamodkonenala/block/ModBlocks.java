@@ -1,6 +1,7 @@
 package com.github.nalamodikk.nalamodkonenala.block;
 
 import com.github.nalamodikk.nalamodkonenala.Konenalamod;
+import com.github.nalamodikk.nalamodkonenala.block.custom.KIWICropBlock;
 import com.github.nalamodikk.nalamodkonenala.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -74,6 +75,11 @@ public class ModBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.METAL).noOcclusion(), BlockSetType.IRON));
     public static final RegistryObject<Block> NALA_STONE_TRAPDOOR = registerBlock("nala_stone_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.METAL).noOcclusion(), BlockSetType.IRON));
+
+
+    public static final RegistryObject<Block> KIWI_CROP = BLOCKS.register("kiwi_crop",
+            () -> new KIWICropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+
 
 
 

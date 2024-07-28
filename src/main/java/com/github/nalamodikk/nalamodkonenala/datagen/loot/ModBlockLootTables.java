@@ -1,7 +1,9 @@
 package com.github.nalamodikk.nalamodkonenala.datagen.loot;
 
 import com.github.nalamodikk.nalamodkonenala.block.ModBlocks;
+import com.github.nalamodikk.nalamodkonenala.block.custom.KIWICropBlock;
 import com.github.nalamodikk.nalamodkonenala.item.ModItems;
+import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
@@ -13,6 +15,8 @@ import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -52,6 +56,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.NALA_STONE_DOOR.get(),
                 block -> createDoorTable(ModBlocks.NALA_STONE_DOOR.get()));
 
+
+        LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition
+                .hasBlockStateProperties(ModBlocks.KIWI_CROP.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(KIWICropBlock.AGE, 5));
+
+        this.add(ModBlocks.KIWI_CROP.get(), createCropDrops(ModBlocks.KIWI_CROP.get(), ModItems.KIWI.get(),
+                ModItems.KIWI_SEEDS.get(), lootitemcondition$builder));
 
     }
 
